@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Gerardo Padilla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="container my-5">
+        <div class="nav row g-0 justify-content-between rounded-top">
+            <!-- logotipo -->
+            <div class="logo col-12 col-lg-auto d-flex align-items-center justify-content-center ps-4">    
+                <div class="icono">
+                    <h2 class="name fw-bold text-uppercase mb-0 mt-2">Gerardo Padilla</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+                    </svg>
+                    <div class="w-100">
+                        <p class="mb-0">Full Stack Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Enlaces -->
+        <nav class="menu col-12 col-lg-auto d-flex align-items-stretch">
+            <a href="index.html" class="activo c1 px-4 d-flex align-items-center text-center text-decoration-none">
+                <div class="w-100">
+                    <span>Portfolio</span>
+                    <div class="icono">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <a href="aboutme.html" class="c2 px-4 d-flex align-items-center text-center text-white text-decoration-none">
+                <div class="w-100">
+                    <span>About me</span>
+                    <div class="icono">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <a href="contact.html" class="c3 px-4 d-flex align-items-center text-center text-white text-decoration-none">
+                <div class="w-100">
+                    <span>Contact</span>
+                    <div class="icono">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </nav>            
+                
+        </div>
+
+        <!-- Slider -->
+        <div class="row slider">
+            <div class="col">
+                <div class="carousel slide" data-bs-ride="carousel" id="slider">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="change d-block w-100" src="imagenes/noche.JPG" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="change d-block w-100" src="imagenes/mar.jpeg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="change d-block w-100" src="imagenes/gato.JPG" alt="">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#slider" 
+                                data-bs-slide-to="0" class="active" 
+                                aria-current="true">
+                        </button>
+                        <button type="button" data-bs-target="#slider" 
+                                data-bs-slide-to="1">
+                        </button>
+                        <button type="button" data-bs-target="#slider" 
+                                data-bs-slide-to="2">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Portafolio -->
+            <div class="row portafolio g-0 px-4 mb-5">
+                <div class="col">
+                    <h2 class="titulo text-center py-5">Knowledge</h2>
+                    <div class="row galeria">
+                        <!-- Imagen 1 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-6">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria1">
+                                <img src="imagenes/java.jpeg" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 2 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-6">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria2">
+                                <img src="imagenes/sql.png" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 3 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-7">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria3">
+                                <img src="imagenes/bootstrap.png" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 4 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-5">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria4">
+                                <img src="imagenes/htmlCss.png" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 5 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-4 ">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria5">
+                                <img src="imagenes/js.png" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 6 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-8">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria6">
+                                <img src="imagenes/python.jpeg" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 7 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-7">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria7">
+                                <img src="imagenes/mongo.png" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <!-- Imagen 8-->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-5">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria8">
+                                <img src="imagenes/react.png" height="180" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Ventana Modal1 -->
+                    <div class="modal fade"
+                        id="modal-galeria1"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Java</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>Knowledge of object-oriented programming</p>
+                                            I participated in a school project where I designed a functional calculator using JAVA.   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal2 -->
+                    <div class="modal fade"
+                        id="modal-galeria2"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">SQL</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have basic knowledge of SQL, including the creation and manipulation of relational databases.</p>
+                                        <p>In addition, I understand the use of primary and foreign keys to establish relationships between 
+                                            tables and I have experience performing simple queries to extract and analyze data.</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal3 -->
+                    <div class="modal fade"
+                        id="modal-galeria3"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Bootstrap5</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have knowledge of Bootstrap, 
+                                            the most popular CSS framework for developing modern and responsive interfaces.</p>
+                                        <p>I handle the Grid System-based layout structure, 
+                                            the customization of components such as buttons, forms, cards and alerts, 
+                                            as well as the use of utility classes for quick styling. In addition, 
+                                            I have experience implementing Navbar, 
+                                            modals and carousels, ensuring a design that adapts to different devices.</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal4 -->
+                    <div class="modal fade"
+                        id="modal-galeria4"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">HTML & CSS</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have a solid knowledge of HTML and CSS for creating well-organized and stylized web structures. 
+                                            I handle semantic tags in HTML5 to improve accessibility and SEO, 
+                                            as well as the use of CSS3 to design attractive and responsive interfaces.</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal5 -->
+                    <div class="modal fade"
+                        id="modal-galeria5"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">JavaScript</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have knowledge of JavaScript for the development of interactive functionalities in web pages. 
+                                            I understand fundamental concepts such as DOM manipulation, 
+                                            events, functions and control structures.</p>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal6 -->
+                    <div class="modal fade"
+                        id="modal-galeria6"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Python</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have experience with Python at a basic level, including the use of variables, 
+                                            data types, control structures (conditions and iterations), and functions. 
+                                            I handle lists, dictionaries, and tuples, as well as file manipulation and the use of exceptions for error handling. 
+                                            In addition, I understand the fundamentals of object-oriented programming (OOP).</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal7 -->
+                    <div class="modal fade"
+                        id="modal-galeria7"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">MongoDB</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have experience in MongoDB, a document-oriented NoSQL database. 
+                                            I handle basic operations such as CRUD (Create, Read, Update, Delete) 
+                                            using MongoDB commands and queries with advanced filters.</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ventana Modal8 -->
+                    <div class="modal fade"
+                        id="modal-galeria8"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        >
+                        <!-- Caja de dialogo -->
+                        <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido de la caja -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">React</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body">
+                                    <div>
+                                        <p>I have experience in React.js for developing dynamic web interfaces and reusable components.
+                                            I understand fundamental concepts such as functional and class components, 
+                                            props, state (useState), effects (useEffect) and the component lifecycle.</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acerca de -->
+            <div class="row acerca-de align-items-start px-4 mb-5">
+                <div class="col-lg-4 foto text-center">
+                    <img src="imagenes/foto.jpg" class="rounded-circle mb-3" width="200px" alt="">
+                    <h4>Computer science engineering student</h4>
+                    <p class="nombre text-center">Gerardo Padilla</p>
+                </div>
+
+                <div class="col-lg-8 info">
+                    <h2 class="titulo text-center text-lg-start">About me</h2>
+                    <p class="resumen">
+                        Computer science engineering student passionate about science, technology, and sports.
+                    </p>
+                    <p class="resume">
+                        Always eager to learn and constantly moving to perform in the best way.
+                    </p>
+
+                    <p class="label">HTML & CSS</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="90"    
+                            style="width: 90%;">
+                            90%
+                        </div>
+                    </div>
+                    <p class="label">BOOTSTRAP5</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="85"    
+                            style="width: 85%;">
+                            85%
+                        </div>
+                    </div>
+                    <p class="label">JAVA</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="80"    
+                            style="width: 80%;">
+                            80%
+                        </div>
+                    </div>
+                    <p class="label">PYTHON</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="80"    
+                            style="width: 80%;">
+                            80%
+                        </div>
+                    </div>
+                    <p class="label">SQL</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="85"    
+                            style="width: 85%;">
+                            85%
+                        </div>
+                    </div>
+                    <p class="label">JAVASCRIPT</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="85"    
+                            style="width: 85%;">
+                            85%
+                        </div>
+                    </div>
+                    <p class="label">REACT</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar text-start" 
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="85"    
+                            style="width: 85%;">
+                            85%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario de contacto -->
+            <div class="row contacto justify-content-center py-5 mb-5">
+                <div class="col-12 col-lg-8">
+                    <h2 class="titulo">Contacto</h2>
+                    <form action="" class="formulario">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" name="nombre" id="nombre" class="form-control" placeholder="">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="form-floating mb-3">
+                                    <input type="email" name="correo" id="correo" class="form-control" placeholder="">
+                                    <label for="nombre" class="form-label">Correo</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <textarea name="mensaje" id="mensaje" class="form-control" placeholder=""></textarea>
+                                    <label for="mensaje">Mensaje</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button class="boton" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row redes-sociales justify-content-center">
+                <div class="col-auto">
+                    <a href="https://www.linkedin.com/in/gerardo-yair-padilla-belmonte-677584265/" class="icono linkedin d-inline-flex align-items-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/GeraPad12" class="icono git d-inline-flex align-items-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
